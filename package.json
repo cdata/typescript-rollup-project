@@ -4,7 +4,7 @@
   "description": "A bootstrap for TypeScript + Rollup projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "cd ./dist && ../node_modules/.bin/http-server -a 127.0.0.1 -c-1 -o",
+    "serve": "cd ./dist && ../node_modules/.bin/http-server -a 127.0.0.1 -c-1",
     "clean": "rm -rf ./dist ./lib",
     "build": "npm run build:tsc && npm run build:rollup && npm run build:cleancss && npm run build:static && npm run build:node-modules",
     "build:tsc": "tsc --incremental",
